@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nimbus Private Browser — Legal</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1d21;
+    --muted: #5b6270;
+    --accent: #2f6fed;
+    --card: #f5f7fb;
+    --border: #e3e7ee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --fg: #edeff2;
+      --muted: #a3aab8;
+      --accent: #6ea0ff;
+      --card: #1c1f26;
+      --border: #2a2e37;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrap { max-width: 28rem; width: 100%; padding: 2rem 1.25rem; }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  .brand-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+  h1 { font-size: 1.6rem; margin: 0 0 1.6rem; }
+  nav { display: flex; flex-direction: column; gap: 0.7rem; }
+  nav a {
+    display: block;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--card);
+    color: var(--fg);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  nav a:hover { border-color: var(--accent); }
+  nav a span { display: block; color: var(--muted); font-weight: 400; font-size: 0.85rem; margin-top: 0.15rem; }
+  footer { margin-top: 1.8rem; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><span class="brand-dot"></span>Thanh Mich LTD</div>
+  <h1>Nimbus Private Browser — Legal &amp; Policy</h1>
+  <nav>
+    <a href="./privacy/">Privacy Policy<span>What data Nimbus handles and why</span></a>
+    <a href="./terms/">Terms of Use<span>Rules for using the app</span></a>
+  </nav>
+  <footer>Nimbus Private Browser is published by Thanh Mich LTD · thanhmichltd@gmail.com</footer>
+</div>
+</body>
+</html>
